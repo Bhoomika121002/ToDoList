@@ -24,7 +24,7 @@ export default function ToDoform(props) {
   return (
     <form className="ToDo-form">
       <input type="text"
-        placeholder="Add a To-Do"
+        placeholder="Add To-Do Task"
         onChange= {handleChange} className= "ToDo-input"
         value={input}
         name="text"  />

@@ -1,4 +1,4 @@
-To-Do-List-container{
+.To-Do-List-container{
   margin: 5rem;
   display: flex;
   justify-content: center;
@@ -6,19 +6,19 @@ To-Do-List-container{
   width: 80rem;
   border: 1px solid black;
   min-height: 60rem;
-  background-color: skyblue;
+  background-color: bisque;
   border-radius: 1rem;
 }
 
-ToDo-form{
+.ToDo-form{
   display: flex;
   width: 100%;
-  margin-top: 50rem;
-  font-size: 2rem;
+  margin-top: 10rem;
+  font-size: 3rem;
   gap: 2rem;
 }
 
-.ToDoform input{
+.ToDo-input{
   border: 1px solid black;
   font-size: 2rem;
   padding: 1rem;
@@ -27,8 +27,7 @@ ToDo-form{
 }
 
 
-.ToDo-form button
-{
+.ToDo-btn{
   border: 1px solid black;
   border-radius: 1rem;
   background-color: white;
@@ -45,14 +44,14 @@ ToDo-form{
 
 }
 
-.task-div{
-  background-color: aliceblue;
+.Task-div{
+  background-color: rgb(228, 178, 241);
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2rem;
-  box-shadow: 0.5rem 0.5rem 4rem black;
+  box-shadow: 0.5rem 0.5rem 4rem rgb(42, 42, 42);
   border-radius: 1rem;
 }
 
@@ -71,8 +70,8 @@ ToDo-form{
 
 .complete{
   text-decoration: line-through;
-  opacity: 0.5;
-  background-color: green;
+  opacity: 0.7;
+  Background-color: rgb(65, 52, 246);
 }
 
 .hide{
