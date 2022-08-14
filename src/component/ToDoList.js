@@ -28,7 +28,7 @@ export default function ToDoList() {
             if (ToDo.id === id) {
                 ToDo.isComplete = true;
             }
-            return ToDos
+            return ToDo;
         })
             setToDos(updatedTasks)
 

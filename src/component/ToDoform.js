@@ -24,11 +24,11 @@ export default function ToDoform(props) {
   return (
     <form className="ToDo-form">
       <input type="text"
-        placeholder="Add To-Do Task"
+        placeholder="To-Do item"
         onChange= {handleChange} className= "ToDo-input"
         value={input}
         name="text"  />
-        <button type = "submit" onClick={handleSubmit} className= "ToDo-btn" > ADD TO-DO</button>
+        <button type = "submit" onClick={handleSubmit} className= "ToDo-btn" > ADD IN LIST </button>
     </form>
   );
 }
